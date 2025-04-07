@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Backend</title>
+    <style>
+      body {
+            text-align: center;
+            font-family: Arial, sans-serif;
+            background-color: #f8f5eb;
+        }
+        h2 {
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+        .skills-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 25px; /* Space between icons */
+            flex-wrap: wrap; /* Ensures responsiveness */
+        }
+        .skill {
+            position: relative;
+            display: inline-block;
+        }
+        .skill img {
+            width: 80px;
+            height: 80px;
+            border-radius: 15px;
+            cursor: pointer;
+            transition: transform 0.2s ease-in-out;
+        }
+        .skill:hover img {
+            transform: scale(1.1);
+        }
+        .tooltip {
+            position: absolute;
+            bottom: 110%;
+            left: 50%;
+            transform: translateX(-50%);
+            background-color: rgba(0, 0, 0, 0.8);
+            color: white;
+            padding: 4px 10px;
+            border-radius: 5px;
+            white-space: nowrap;
+            font-size: 20px;
+            opacity: 0;
+            visibility: hidden;
+            transition: opacity 0.3s ease-in-out;
+        }
+        .skill:hover .tooltip {
+            opacity: 1;
+            visibility: visible;
+        }
+        .icons{margin-right: 15px;}
+         
+    </style>
+</head>
+<body>
+    <h2>Skills<h2>
+        <div class="skills-container">
+            <!-- Java -->
+            <div class="skill">
+                <img alt="java" src="assets/icons/java.png"> 
+                <div class="tooltip">65%</div>
+            </div>
+            <!-- PHP -->
+            <div class="skill">
+                <img src="assets/icons/php.png" alt="PHP">
+                <div class="tooltip">75%</div>
+            </div>
+                <!-- MYSQL -->
+                <div class="skill">
+                    <img src="assets/icons/sql.png" alt="MySql">
+                    <div class="tooltip">80%</div>
+                </div>
+           
+        </div>
+</body>
+</html>  

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head> 
+    <!--<link rel="icon" type="image/png" href="assets/images/deer.png">-->
+    <title>Lee Jie Hui - Creative Designer</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="Lee Jie Hui">
+        
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="/components/menu.css">
+    <script src="/button.js"></script>
+    <style>
+        #about{
+         position: absolute; /* 让文字浮在图片之上 */
+  top: 0%; /* 控制离顶部的距离，调整百分比 */
+  left: 48%; /* 水平居中 */
+  transform: translateX(-50%); /* 修正水平居中 */
+  font-size: 18px;
+  font-family: Times New Roman; 
+  text-align: center;
+  z-index: 2; /* 确保文字在最上层 */ 
+  padding: 0; /* 适当填充 */
+  background-color: transparent;
+    }
+    </style>
+    <!--Icon Reference: Iconscout | 3D-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <header>
+        <marquee direction="right" scrollamount="12">I'm fresh graduate. Passion in Design & Code. Currently looking position: UI UX Designer | Frontend Developer | Web Designer</marquee>
+       <div class="social-media">
+            <a id="gmail" href="jiehui02@gmail.com" target="_blank">
+                <img src="assets/icons/gmail.png" alt="Gmail">
+            </a>
+          
+                <a id="linkedin" href="https://www.linkedin.com/in/lee-jie-hui-pixdev/" target="_blank">
+                    <img src="assets/icons/linkedin.png" alt="LinkedIn">
+                </a>
+                <a id="github" href="https://github.com/JieHuiLee" target="_blank">
+                    <img src="assets/icons/github.png" alt="Github">
+                </a>  
+            <a id="whatsapp" href="http://wa.me/60109516862" target="_blank">
+                <img src="assets/icons/whatsapp.png" alt="Whatsapp">
+            </a> 
+        </div>
+        
+            <div class="row">
+                <a href="about.html"> <h1>CREATIVE <br> DESIGNER</h1>  <p id="about" style="position: absolute;">Click 👉 <u>About Me</u></p></a>
+                <img id="avatar" src="assets/images/index.png" alt="Avatar"> 
+            </div>         
+            
+           
+            <!--<img id="avatar" src="assets/images/deer_avatar.png" width="270px">-->
+                 <!-- 背景音乐 -->
+    <audio id="bgm" loop>
+        <source src="assets/audio/flowerday.mp3" type="audio/mpeg"> 
+    </audio>
+
+    <!-- 播放/暂停按钮 -->
+
+    <button id="bgm-toggle">🎵 Play Music</button>
+      
+    </header>
+     
+    
+    <footer>
+        <p>&copy; 2025 My Website. All rights reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
