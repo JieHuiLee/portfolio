@@ -142,6 +142,7 @@ marquee{
 }
 
 
+ 
 .social-media {
   position: absolute;
   transform: translateX(-50%); /* Center horizontally */
@@ -149,7 +150,7 @@ marquee{
   display:grid;
   gap: 0px; /* Space between icons */
 
-}
+} 
 
 /* Positioning each individual icon */
 .social-media a {
@@ -157,23 +158,23 @@ marquee{
 }
 
 .social-media a#gmail {
-  top: 322px;
-  left: 112px;
+  top: 338px;
+  left: 207px;
 }
 
 .social-media a#linkedin {
-  top: 298px;
-  left: 180px;
+  top: 314px;
+  left: 278px;
 }
 
 .social-media a#github {
-  top: 395px;
-  left: 141px;
+  top: 417px;
+  left: 238px;
 }
 
 .social-media a#whatsapp {
-  top: 370px;
-  left: 210px;
+  top: 388px;
+  left: 308px;
 }
 
 
